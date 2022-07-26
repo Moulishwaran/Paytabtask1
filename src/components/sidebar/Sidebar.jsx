@@ -1,18 +1,16 @@
 import "./sidebar.css";
-import {
-  LineStyle,
-  Timeline,
-  TrendingUp,
-  PermIdentity,
-  Storefront,
-  AttachMoney,
-  BarChart,
-  MailOutline,
-  DynamicFeed,
-  ChatBubbleOutline,
-  WorkOutline,
-  Report,
-} from "@material-ui/icons";
+
+import LineStyle from "@mui/icons-material/LineStyle";
+import Timeline from "@mui/icons-material/Timeline";
+import PermIdentity from "@mui/icons-material/PermIdentitye";
+import Storefront from "@mui/icons-material/ Storefront";
+import BarChart from "@mui/icons-material/ BarChart";
+import MailOutline from "@mui/icons-material/ MailOutline";
+import DynamicFeed from "@mui/icons-material/DynamicFeed";
+import ChatBubbleOutline from "@mui/icons-material/ChatBubbleOutline";
+import WorkOutline from "@mui/icons-material/WorkOutline";
+import Report from "@mui/icons-material/WorkOutline";
+
 import { Link } from "react-router-dom";
 
 export default function Sidebar() {
@@ -33,7 +31,7 @@ export default function Sidebar() {
               Account
             </li>
             <li className="sidebarListItem">
-              <TrendingUp className="sidebarIcon" />
+              <Timeline className="sidebarIcon" />
               CreditCard
             </li>
           </ul>
@@ -54,7 +52,7 @@ export default function Sidebar() {
               </li>
             </Link>
             <li className="sidebarListItem">
-              <AttachMoney className="sidebarIcon" />
+              <Timeline className="sidebarIcon" />
               Transactions
             </li>
             <li className="sidebarListItem">
