@@ -1,6 +1,5 @@
 import "./sidebar.css";
 
-import LineStyle from "@mui/icons-material/LineStyle";
 import Timeline from "@mui/icons-material/Timeline";
 import PermIdentity from "@mui/icons-material/PermIdentitye";
 import Storefront from "@mui/icons-material/ Storefront";
@@ -22,7 +21,7 @@ export default function Sidebar() {
           <ul className="sidebarList">
             <Link to="/" className="link">
               <li className="sidebarListItem active">
-                <LineStyle className="sidebarIcon" />
+                <Timeline className="sidebarIcon" />
                 Home
               </li>
             </Link>
